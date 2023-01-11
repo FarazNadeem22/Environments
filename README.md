@@ -26,3 +26,10 @@ Flask-SQLAlchemy==2.5.1
 psycopg2-binary==2.9.1
 SQLAlchemy==1.4.17
 """
+
+### Deactivate Virtual Environment 
+ deactivate 
+ 
+ ### Activate an Environment called venv
+ . venv/scripts/activate
+ 
