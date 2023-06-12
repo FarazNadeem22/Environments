@@ -1,0 +1,20 @@
+ python -m venv webdevelopment
+ vim requirements.txt
+ python -m pip install -r requirements.txt
+ . venv/scripts/activate OR source venv/bin/activate
+ pip install django
+ 
+ 
+ requirements.txt
+ -----------------
+ "
+ -- requrements.txt 
+alembic==1.6.5 
+Faker==8.5.1 
+Flask==2.0.1 
+Flask-Migrate==3.0.1 
+Flask-SQLAlchemy==2.5.1 
+psycopg2-binary==2.9.1 
+SQLAlchemy==1.4.17
+Django==4.2.2
+"
